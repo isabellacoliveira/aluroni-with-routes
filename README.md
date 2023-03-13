@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Aluroni 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi desenvolvido em React com Typescript. Ele simula um restaurante com os pratos e os cardapios. 
 
-## Available Scripts
+## Tela Inicial
 
-In the project directory, you can run:
+Ao abrir a aplicação o usuário se depara com essa página. Onde ele pode visualizar os pratos recomendados pela cozinha, 
+que mudam a cada vez que o usuario abre a pagina. Cada um dos pratos possui um botão de "ver mais", onde ao clicar, o usuário é encaminhado para a página onde ela vê detalhes de um prato específico.
 
-### `npm start`
+### WEB 
+![INICIO](./src/assets/GIF1.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tela de um prato especifico 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Ao clicar no botão de "ver mais", o usuario é encaminhado para a tela de detalhes de um prato específico. 
 
-### `npm test`
+### WEB 
+![INICIO](./src/assets/GIF2.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tela de Cardapio
 
-### `npm run build`
+Na tela de cardapio o usuario pode visualizar todos os pratos que ha no restaurante. Você pode clicar em cada um dos pratos. 
+Pode usar a barra de busca para buscar por pratos. Ou filtrar mudando a opção que está no dropdown list (ordenar por), ou 
+selecionar pelo tipo de prato para fazer a filtragem (massas, carnes, combos, veganos).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### WEB 
+![INICIO](./src/assets/GIF4.gif)
+![INICIO](./src/assets/GIF5.gif)
+![INICIO](./src/assets/GIF6.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tela de Sobre
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ao clicar no botão de "SOBRE", o usuário é encaminhado para essa tela. Onde ele pode 
+ver detalhes sobre o restaurante (ficticio). 
 
-### `npm run eject`
+### WEB 
+![INICIO](./src/assets/GIF3.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

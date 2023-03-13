@@ -22,8 +22,6 @@ export default function AppRouter(){
                     <Route path="prato/:id" element={<Prato />} />
                     <Route path="*" element={<NaoEncontrada />} />
                 </Routes>
-                {/* podemos criar quantos routes quisermos  */}
-                {/* vamos até prato  */}
                 <Footer />
             </Router>
             </main>
